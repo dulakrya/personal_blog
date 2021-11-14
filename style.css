@@ -1,0 +1,48 @@
+html {
+    background: black;
+}
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:tan;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+header {
+    position: sticky;
+    top: 0;
+    background: tan;
+}
+h2 {
+    font-size: 1.5em;
+    padding: 5px;
+    margin: 5px;
+}
+p {
+    line-height: 1.25em;
+}
+#blog {
+    border-top:1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+}
+.picture {
+    float: left;
+    margin: auto;
+    max-width: 100%;
+}
+.blog-post {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+a[href$=".html"] {
+    color:sienna;
+}
+
+@media (max-width: 400px) {
+    #blog {
+        margin: auto;
+    }
+}
